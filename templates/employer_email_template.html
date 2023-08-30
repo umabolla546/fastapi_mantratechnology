@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add CSS styling  */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        b{
+            color: #333;
+            font-size: medium;
+
+
+
+        }
+
+
+        p {
+            color: #666;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .signature {
+            margin-top: 20px;
+            text-align: right;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Leave Notification</h1>
+        <p>Hi,</p>
+        <p>This email is to inform you that according to attendance records,<b> {{employee_name}} </b>did not attend to the duties for <b>{{ num_days }} days.</b> </p>
+        <p>Thanks,<br>HR Team</p>
+        <p class="signature">Best regards,<br>Your Company</p>
+    </div>
+</body>
+</html>
